@@ -5,7 +5,7 @@
 package mx.itson.sylveon.excepciones;
 
 /**
- *
+ * Se empieza a crear la excepcion
  * @author Christian
  */
 public class HexadecimalException extends Exception{
