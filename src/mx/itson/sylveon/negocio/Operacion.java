@@ -7,11 +7,17 @@ package mx.itson.sylveon.negocio;
 import mx.itson.sylveon.excepciones.HexadecimalException;
 
 /**
- *
+ * 
  * @author Christian
  */
 public class Operacion {
     
+        /**
+         * Sirve para hacer las operaciones necesarias, y salta una excepcion escrita por mi si se ingresa un numero o letra no valido
+         * @param numero El numero en hexadecimal a convertir
+         * @return Retorna el numero en decimal si es que no entra a la excepcion
+         * @throws HexadecimalException 
+         */
     public static int pasarADecimal (String numero)throws HexadecimalException{
             
         String number = numero.toUpperCase();

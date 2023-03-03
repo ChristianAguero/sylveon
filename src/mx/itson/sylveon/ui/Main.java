@@ -8,7 +8,7 @@ import mx.itson.sylveon.excepciones.HexadecimalException;
 import mx.itson.sylveon.negocio.Operacion;
 
 /**
- *
+ * Clase main
  * @author Christian
  */
 public class Main {
