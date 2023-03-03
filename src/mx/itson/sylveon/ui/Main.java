@@ -15,7 +15,7 @@ public class Main {
  
     public static void main(String[] args) throws HexadecimalException {
         
-        String hexadecimal = "af45pa";
+        String hexadecimal = "A3F";
         int decimal = 0;
         
         try{

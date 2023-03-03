@@ -22,13 +22,13 @@ public class Operacion {
             
             if(hex[i] != '0' && hex[i] != '1' && hex[i] != '2' && hex[i] != '3' && hex[i] != '4' && hex[i] != '5' && hex[i] != '6' && hex[i] != '7' && hex[i] != '8' && hex[i] != '9' && hex[i] != 'A' && hex[i] != 'B' && hex[i] != 'C' && hex[i] != 'D' && hex[i] != 'E' && hex[i] != 'F'){
             
-                throw new HexadecimalException("Solo se pueden ingresar numeros del 0 al 11 y letras de la A a la F para numeros hexadecimales");
+                throw new HexadecimalException("Solo se pueden ingresar numeros del 0 al 9 y letras de la A a la F para numeros hexadecimales");
             
             }
 
         }
         
-        decimal += Integer.parseInt(numero, 16);
+        decimal = Integer.parseInt(numero, 16);
         
         return decimal;
         
